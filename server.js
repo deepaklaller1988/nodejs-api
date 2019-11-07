@@ -44,5 +44,5 @@ const port = parseInt(process.env.PORT, 10) || 3000;
 
 // start the server
 const server = app.listen(port, () => {
-  console.log(`App is running at: 192.168.0.113:${server.address().port}`);
+  console.log(`App is running at: localhost:${server.address().port}`);
 });
